@@ -23,7 +23,7 @@ export class SearchComponent implements OnInit{
     });
   }
   
-  buscarHeroe(idx: number){
+  buscaHeroes(idx: number){
     console.log(idx);
     this.router.navigate(['/heroe', idx]);
   }
